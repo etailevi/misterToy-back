@@ -8,7 +8,7 @@
       "Battery Powered"
     ],
     "createdAt": 1631031801011,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f163",
@@ -19,7 +19,7 @@
       "Doll"
     ],
     "createdAt": 1631125645863,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f164",
@@ -31,7 +31,7 @@
       "Outdoor"
     ],
     "createdAt": 1631099274372,
-    "inStock": false
+    "inStock": "false"
   },
   {
     "_id": "614ef02f70d24311e584f165",
@@ -42,7 +42,7 @@
       "Art"
     ],
     "createdAt": 1631107412719,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f166",
@@ -53,7 +53,7 @@
       "Outdoor"
     ],
     "createdAt": 1631122838598,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f167",
@@ -65,7 +65,7 @@
       "Outdoor"
     ],
     "createdAt": 1631136809867,
-    "inStock": false
+    "inStock": "false"
   },
   {
     "_id": "614ef02f70d24311e584f168",
@@ -76,7 +76,7 @@
       "Battery Powered"
     ],
     "createdAt": 1631102115584,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f169",
@@ -86,7 +86,7 @@
       "Baby"
     ],
     "createdAt": 1631129276751,
-    "inStock": false
+    "inStock": "false"
   },
   {
     "_id": "614ef02f70d24311e584f16a",
@@ -98,7 +98,7 @@
       "Puzzle"
     ],
     "createdAt": 1631115098246,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f16b",
@@ -108,7 +108,7 @@
       "Puzzle"
     ],
     "createdAt": 1631132139382,
-    "inStock": true
+    "inStock": "true"
   },
   {
     "_id": "614ef02f70d24311e584f16c",
@@ -118,6 +118,6 @@
       "Outdoor"
     ],
     "createdAt": 1631096917645,
-    "inStock": false
+    "inStock": "false"
   }
 ]
