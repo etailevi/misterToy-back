@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser')
 const path = require('path')
 const cors = require('cors')
 
+const PEXELS_API_KEY = 'dQdbYUNMcmqoGHD35JxMykLVIpeVCX7GrRMq7KAvJr6utpGh7D4xgZni'
 
 // App Configuration
 // const corsOptions = {
@@ -36,9 +37,10 @@ app.use(express.json()) // for req.body
 // **************** Toys API ****************:
 // List
 app.get('/api/toy', (req, res) => {
-    const { name, labels, inStock } = req.query
-    const filterBy = { name, labels, inStock }
-    toyService.query(filterBy)
+    const { filterBy, sortBy } = req.query
+    // const { name, labels, inStock } = req.query
+    // const filterBy = { name, labels, inStock }
+    toyService.query(filterBy, sortBy)
         .then(toys => {
             res.send(toys)
         })

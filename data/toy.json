@@ -16,7 +16,8 @@
     "price": 89,
     "labels": [
       "Baby",
-      "Doll"
+      "Doll",
+      "Art"
     ],
     "createdAt": 1631125645863,
     "inStock": "true"
@@ -36,7 +37,7 @@
   {
     "_id": "614ef02f70d24311e584f165",
     "name": "Colorful Puzzle Blocks",
-    "price": 45,
+    "price": 46,
     "labels": [
       "Puzzle",
       "Art"
@@ -47,7 +48,7 @@
   {
     "_id": "614ef02f70d24311e584f166",
     "name": "Giggling Giraffe",
-    "price": 64,
+    "price": 66,
     "labels": [
       "Baby",
       "Outdoor"
@@ -119,5 +120,42 @@
     ],
     "createdAt": 1631096917645,
     "inStock": "false"
+  },
+  {
+    "name": "Tamar",
+    "price": 30,
+    "labels": [
+      "Doll",
+      "Battery Powered"
+    ],
+    "inStock": true,
+    "_id": "73KBl",
+    "createdAt": 1685104285006
+  },
+  {
+    "name": "Ofirush",
+    "price": 1000,
+    "labels": [
+      "Baby",
+      "Outdoor"
+    ],
+    "inStock": true,
+    "_id": "MBeZ3",
+    "createdAt": 1685107098958
+  },
+  {
+    "name": "Etai",
+    "price": 36,
+    "labels": [
+      "Art",
+      "Doll",
+      "Puzzle",
+      "Box game",
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "inStock": true,
+    "_id": "z18Rd",
+    "createdAt": 1685110284391
   }
 ]
