@@ -21,7 +21,6 @@ function query(filterBy = {}, sortBy) {
     }
     if(sortBy) _getSortedToys(toysToDisplay, sortBy)
     if (filterBy.pageIdx !== undefined)  {
-        console.log('hi')
         pages = Math.ceil(toysToDisplay.length / PAGE_SIZE)
        if (filterBy.pageIdx + 1 < pages || filterBy.pageIdx > 0) {
            const startIdx = filterBy.pageIdx * PAGE_SIZE
